@@ -1,8 +1,6 @@
 # ISO 226
 [![NuGet version (NokitaKaze.ISO226)](https://img.shields.io/nuget/v/NokitaKaze.ISO226.svg?style=flat)](https://www.nuget.org/packages/NokitaKaze.ISO226/)
-<!--
-[![Build status](https://ci.appveyor.com/api/projects/status/3fgpod9vvmgu45v8/branch/master?svg=true)](https://ci.appveyor.com/project/nokitakaze/dotnet-iso226/branch/master)
--->
+[![Build status](https://ci.appveyor.com/api/projects/status/7ykfx4nv6hbib8to/branch/master?svg=true)](https://ci.appveyor.com/project/nokitakaze/dotnet-iso226/branch/master)
 [![Test status](https://img.shields.io/appveyor/tests/nokitakaze/dotnet-iso226.svg)](https://ci.appveyor.com/project/nokitakaze/dotnet-iso226/branch/master)
 
 ISO 226 converter Db (decibels) <-> phon
