@@ -9,8 +9,6 @@ ISO 226 converter Db (decibels) <-> phon
 
 ## Using
 
-You could read any media file, but you need to convert it to WAV.
-
 ```csharp
 var phon = new NokitaKaze.ISO226.EqualLoudnessContour.ConvertDbToPhon(db, hz);
 var db = new NokitaKaze.ISO226.EqualLoudnessContour.ConvertPhonToDb(phon, hz);

@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <PackageId>NokitaKaze.ISO226</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>NokitaKaze</Authors>
+    <Description>ISO-226 converter (phon &lt;-&gt; db)</Description>
+    <PackageLicenseUrl>https://github.com/nokitakaze/dotnet-ISO226/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/nokitakaze/dotnet-ISO226</RepositoryUrl>
+    <PackageTags>iso 226,iso226,audio</PackageTags>
+    <Company>NokitaKaze</Company>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
   </PropertyGroup>
 
 </Project>
