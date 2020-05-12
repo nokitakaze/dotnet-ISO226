@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
-namespace ISO226.Test
+namespace NokitaKaze.ISO226.Test
 {
     public class EqualLoudnessContourTest
     {
@@ -509,7 +509,7 @@ namespace ISO226.Test
 
             return resultTable;
         }
-        
+
         /*
 
         [Fact]
@@ -531,7 +531,7 @@ namespace ISO226.Test
                 ));
             }
 
-            File.WriteAllLines(@"h:\f.tsv", tsvTable1);
+            System.IO.File.WriteAllLines(@"h:\f.tsv", tsvTable1);
 
             //
             var titleS = iso_f.Aggregate("Фон",
@@ -551,10 +551,10 @@ namespace ISO226.Test
                 tsvTable2.Add(s);
             }
 
-            File.WriteAllLines(@"h:\hz.tsv", tsvTable2);
+            System.IO.File.WriteAllLines(@"h:\hz.tsv", tsvTable2);
         }
-        
-        */
+
+        // */
 
         [Theory]
         [MemberData(nameof(ConvertDbToPhonTestData))]

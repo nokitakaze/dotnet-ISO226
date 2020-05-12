@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ISO226
+namespace NokitaKaze.ISO226
 {
     public static class EqualLoudnessContour
     {
